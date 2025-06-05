@@ -21,10 +21,11 @@
   }
 
   @include breakpoint($large) {
-    @include span(2 of 12);
+    @include span(2.5 of 12);  /* Increased from 2 to 2.5 for wider sidebar */
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
+    padding-right: 3em;  /* Increased from 2em */
 
     &:hover {
       opacity: 1;
@@ -33,7 +34,7 @@
 
   @include breakpoint($x-large) {
     max-width: $sidebar-link-max-width;
-    padding-right: 0;
+    padding-right: 4em;  /* Increased from 3em */
   }
 
   h2, h3, h4, h5, h6 {

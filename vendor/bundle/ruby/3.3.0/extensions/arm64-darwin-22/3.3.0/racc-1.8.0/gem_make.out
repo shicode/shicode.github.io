@@ -1,0 +1,18 @@
+current directory: /Users/shilpasuresh/Documents/shicode.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/shilpasuresh/Documents/shicode.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240625-13168-b08pzc sitelibdir\=./.gem.20240625-13168-b08pzc clean
+
+current directory: /Users/shilpasuresh/Documents/shicode.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240625-13168-b08pzc sitelibdir\=./.gem.20240625-13168-b08pzc
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/shilpasuresh/Documents/shicode.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240625-13168-b08pzc sitelibdir\=./.gem.20240625-13168-b08pzc install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20240625-13168-b08pzc/racc
+
+current directory: /Users/shilpasuresh/Documents/shicode.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240625-13168-b08pzc sitelibdir\=./.gem.20240625-13168-b08pzc clean
